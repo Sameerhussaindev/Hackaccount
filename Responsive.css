@@ -1,0 +1,179 @@
+@media (max-width: 767px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .option-list {
+    padding-top: 10px;
+  }
+
+  .option-list ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .sect-1 {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .image img {
+    width: 100%;
+    height: auto;
+    position: static;
+    margin-top: 20px;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .card {
+    width: 90%;
+    height: auto;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .feature-card {
+    width: 100%;
+    height: auto;
+  }
+
+  .journey {
+    width: 100%;
+    height: auto;
+  }
+
+  .journey h2,
+  .journey .first,
+  .journey .second {
+    width: 100%;
+    height: auto;
+  }
+
+  .image-2 img {
+    width: 100%;
+    height: auto;
+    position: static;
+    margin-top: 15px;
+  }
+
+  .boxes {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .boxes .mini-1,
+  .boxes .mini-2 {
+    width: 90%;
+    height: auto;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .Card-a,
+  .Card-b,
+  .Card-c {
+    width: 90%;
+    height: auto;
+  }
+
+  .input-optn {
+    width: 95%;
+    height: auto;
+    position: static;
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  .input-optn input,
+  .input-optn .email,
+  .input-optn .Msg {
+    width: 100% !important;
+    margin: 10px 0;
+  }
+
+  .cnter-txt {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .cnter-txt p,
+  .cnter-txt ul li {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .snd-txt {
+    text-align: center;
+  }
+
+  .F-content {
+    margin: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .sect-1 {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+
+  .image img {
+    width: 80%;
+    height: auto;
+    position: static;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .boxes {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Card-a,
+  .Card-b,
+  .Card-c {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+
+  .input-optn {
+    width: 90%;
+    left: 0;
+    margin: 20px auto;
+  }
+}
